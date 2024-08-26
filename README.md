@@ -60,8 +60,8 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [coverlet](https://github.com/tonerdo/coverlet) – A cross platform code coverage framework for .NET, with support for line, branch and method coverage.
 * [dotnet-coverage](https://learn.microsoft.com/en-us/dotnet/core/additional-tools/dotnet-coverage) – A utility for collection coverage data of a running process, merging of coverage reports, binary `.coverage` file convertation. 
 * [JetBrains.dotCover.CommandLineTools](https://www.jetbrains.com/help/dotcover/Running_Coverage_Analysis_from_the_Command_LIne.html) – A console tool that allows you to run coverage analysis of unit tests or applications using the command-line prompt. 
-* [Microsoft.CodeCoverage.Console](https://learn.microsoft.com/en-us/visualstudio/test/microsoft-code-coverage-console-tool?view=vs-2022) – A closed-source coverage collector, available only with Visual Studio Enterprise.
-* [MiniCover](https://github.com/lucaslorentz/minicover) – Minimalist code coverage tool for .NET. **[$]** 
+* [Microsoft.CodeCoverage.Console](https://learn.microsoft.com/en-us/visualstudio/test/microsoft-code-coverage-console-tool?view=vs-2022) – A closed-source coverage collector, available only with Visual Studio Enterprise. **[$]** 
+* [MiniCover](https://github.com/lucaslorentz/minicover) – A minimalist code coverage tool for .NET.
 
 #### Coverage visualization
 * Visual Studio: 
@@ -70,7 +70,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
   * ReSharper + dotCover.
   * Built-in support in Enterprise version.
 * Rider: built-in support.
-* VSCode: [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters).
+* VSCode: [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) extension.
 
 ### Fake data generators
 * [AutoFixture](https://github.com/AutoFixture/AutoFixture) – minimize the 'Arrange' phase of your unit tests by automating non-relevant setup. Auto-injecting mocks, auto-generation of test cases etc.
@@ -119,7 +119,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [FlaUI](https://github.com/FlaUI/FlaUI) – Automated UI testing of Windows applications (Win32, WinForms, WPF, Store Apps etc.).
 * [Fuchu](https://github.com/mausch/Fuchu) – A unit-testing library for F# with tests-as-values which makes DSLs extremely easy to create. **[~]**
 * [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc) – A strongly-typed unit testing library providing an easy fluent interface to test the ASP.NET Core, perfectly suitable for both MVC and API scenarios.
-* [ReportPortal](https://github.com/reportportal/reportportal) – AI-powered test automation dashboard: real-time analytics, test results visualization, machine learning. 
+* [ReportPortal](https://github.com/reportportal/reportportal) – AI-powered test automation dashboard: real-time analytics, test results visualization, machine learning. **[$]** 
 * [Testcontainers](https://github.com/testcontainers/testcontainers-dotnet) – A library to support tests with throwaway instances of Docker containers. It is built on top of the .NET Docker remote API and provides a lightweight implementation to support your test environment.
 
 

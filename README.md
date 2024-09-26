@@ -12,7 +12,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 **[$]** – Has a paid "pro" version, restrictive license, or closed source code.
 
 ### Contents
-- [Test frameworks](#test-frameworks)
+- [Test frameworks overview](#test-frameworks-overview)
 - [Architecture](#architecture)
 - [Assertions](#assertions)
 - [Behavior Driven Development (BDD)](#behavior-driven-development-bdd)
@@ -32,7 +32,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 - [Appendix I. xUnit extensions](#appendix-i-xunit-extensions)
 
 
-### Test frameworks
+### Test frameworks overview
 * The Big Three: [MSTest](https://github.com/microsoft/testfx), [NUnit](https://github.com/nunit/nunit), [xUnit](https://github.com/xunit/xunit).
 
 * [Fixie](https://github.com/fixie/fixie) – A test framework similar to NUnit and xUnit, but with an emphasis on low-ceremony defaults and flexible customization.

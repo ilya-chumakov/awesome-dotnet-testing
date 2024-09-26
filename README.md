@@ -118,8 +118,12 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [Expecto](https://github.com/haf/expecto) – A Smooth Testing framework for F# with tests as values. Unit testing, property based testing, performance testing and stress testing.
 * [FlaUI](https://github.com/FlaUI/FlaUI) – Automated UI testing of Windows applications (Win32, WinForms, WPF, Store Apps etc.).
 * [Fuchu](https://github.com/mausch/Fuchu) – A unit-testing library for F# with tests-as-values which makes DSLs extremely easy to create. **[~]**
+* [Meziantou.Extensions.Logging.InMemory](https://github.com/meziantou/Meziantou.Framework) - Log verification for 
+Microsoft.Extensions.Logging.ILogger.
 * [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc) – A strongly-typed unit testing library providing an easy fluent interface to test the ASP.NET Core, perfectly suitable for both MVC and API scenarios.
 * [ReportPortal](https://github.com/reportportal/reportportal) – AI-powered test automation dashboard: real-time analytics, test results visualization, machine learning. **[$]** 
+* [Serilog.Sinks.InMemory](https://github.com/serilog-contrib/SerilogSinksInMemory) - Log verification for 
+[Serilog](https://serilog.net/).
 * [Testcontainers](https://github.com/testcontainers/testcontainers-dotnet) – A library to support tests with throwaway instances of Docker containers. It is built on top of the .NET Docker remote API and provides a lightweight implementation to support your test environment.
 
 

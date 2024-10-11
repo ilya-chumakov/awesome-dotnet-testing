@@ -21,8 +21,8 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
   - [Coverage visualization](#coverage-visualization)
 - [Fake data generators](#fake-data-generators)
 - [Mocks](#mocks)
-  - [General purpose](#general-purpose)
-  - [Specific](#specific)
+  - [General purpose mocks](#general-purpose-mocks)
+  - [Specific mocks](#specific-mocks)
 - [Mutations](#mutations)
 - [Random \& fuzzy testing](#random--fuzzy-testing)
 - [Security](#security)
@@ -79,13 +79,13 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [GenFu](https://github.com/MisterJames/GenFu) – Smartly building up objects to use for test and prototype data. It will walk your object graph and fill in the properties on your type with realistic looking data. **[~]** 
 
 ### Mocks
-#### General purpose
+#### General purpose mocks
 * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) – A .NET dynamic fake library for creating all types of fake objects, mocks, stubs etc.
 * [JustMock](https://www.telerik.com/products/mocking.aspx) – A flexible and complete mocking tool for crafting unit tests. **[$]** 
 * [Moq](https://github.com/Moq/moq4) – Most popular, mock both interfaces and classes, strong-typed, has IntelliSense integration, no Record/Replay idioms.
 * [NSubstitute](https://github.com/nsubstitute/nsubstitute) – A friendly substitute for .NET mocking libraries.
 
-#### Specific
+#### Specific mocks
 * [mockhttp](https://github.com/richardszalay/mockhttp) – Testing layer for Microsoft's HttpClient library.
 * [Moq.Contrib.HttpClient](https://github.com/maxkagamine/Moq.Contrib.HttpClient) – A set of extension methods for mocking HttpClient and IHttpClientFactory with Moq.
 * [netDumbster](https://github.com/cmendible/netDumbster) – A fake SMTP server.

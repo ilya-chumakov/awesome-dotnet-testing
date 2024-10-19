@@ -108,6 +108,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 ### Snapshots
 * [Snapshooter](https://github.com/SwissLife-OSS/snapshooter) – A snapshot tool based on the idea of [Jest Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing/).
 * [Verify](https://github.com/VerifyTests/Verify) – A snapshot tool to simplify the assertion of complex data models and documents.
+* [Meziantou.Framework.InlineSnapshotTesting](https://www.nuget.org/packages/Meziantou.Framework.InlineSnapshotTesting) – Snapshot tool to store snapshots into the code.
 
 ### Web UI test automation
 * [Atata](https://github.com/atata-framework/atata) – A full-featured framework based on Selenium WebDriver.

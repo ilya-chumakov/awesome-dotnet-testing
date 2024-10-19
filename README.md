@@ -111,6 +111,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 
 ### Web UI test automation
 * [Atata](https://github.com/atata-framework/atata) – A full-featured framework based on Selenium WebDriver.
+* [Playwright](https://playwright.dev/dotnet/) - End-to-end testing for modern web apps, supporting Chromium, WebKit, and Firefox browsers.
 * [PuppeteerSharp](https://github.com/hardkoded/puppeteer-sharp) – A multi-purpose browser automation library.
 * [Telerik Test Studio](https://docs.telerik.com/teststudio/welcome) – Functional UI, load/performance and API testing for web and WPF desktop applications. It is not based on Selenium or other Open Source frameworks but on the Telerik Testing Framework (proprietary). **[$]**
 

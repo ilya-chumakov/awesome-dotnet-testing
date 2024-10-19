@@ -1,11 +1,12 @@
 # Contribution Guidelines
 
-## New entry format
+## Entry format
 
-* Use the following format: \[LIBRARY\]\(LINK\) - DESCRIPTION
-* The link should be the name of the package or project
-* Keep descriptions concise, clear and simple
-* New categories, or improvements to the existing ones are also welcome
+* Use the following format: `[NAME](LINK) - DESCRIPTION`
+* The link should point to a Github project (preferably), a NuGet package page, or a project website.
+* Keep names in alphabetical order within a section.
+* Keep descriptions concise, clear and simple.
+* New categories, or improvements to the existing ones are also welcome.
 
 ## Pull requests workflow
 
@@ -16,7 +17,7 @@
 
 To stay on the list, projects should follow these quality standards:
 
-* Generally useful to the community
-* Stable
-* Documented
-* Tests
+* Generally useful to the community.
+* Stable.
+* Documented.
+* Tested.

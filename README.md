@@ -106,9 +106,9 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [SonarQube](https://www.sonarsource.com/products/sonarqube/) – SAST. Community Edition is [free & open source](https://www.sonarsource.com/open-source-editions/sonarqube-community-edition/). **[$]**
 
 ### Snapshots
+* [Meziantou.Framework.InlineSnapshotTesting](https://www.nuget.org/packages/Meziantou.Framework.InlineSnapshotTesting) – Snapshot tool to store snapshots into the code.
 * [Snapshooter](https://github.com/SwissLife-OSS/snapshooter) – A snapshot tool based on the idea of [Jest Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing/).
 * [Verify](https://github.com/VerifyTests/Verify) – A snapshot tool to simplify the assertion of complex data models and documents.
-* [Meziantou.Framework.InlineSnapshotTesting](https://www.nuget.org/packages/Meziantou.Framework.InlineSnapshotTesting) – Snapshot tool to store snapshots into the code.
 
 ### Web UI test automation
 * [Atata](https://github.com/atata-framework/atata) – A full-featured framework based on Selenium WebDriver.
@@ -121,7 +121,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [Expecto](https://github.com/haf/expecto) – A Smooth Testing framework for F# with tests as values. Unit testing, property based testing, performance testing and stress testing.
 * [FlaUI](https://github.com/FlaUI/FlaUI) – Automated UI testing of Windows applications (Win32, WinForms, WPF, Store Apps etc.).
 * [Fuchu](https://github.com/mausch/Fuchu) – A unit-testing library for F# with tests-as-values which makes DSLs extremely easy to create. **[~]**
-* [Meziantou.Extensions.Logging.InMemory](https://github.com/meziantou/Meziantou.Framework) - Log verification for Microsoft.Extensions.Logging.ILogger.
+* [Meziantou.Extensions.Logging.InMemory](https://www.nuget.org/packages/Meziantou.Extensions.Logging.InMemory) - Log verification for Microsoft.Extensions.Logging.ILogger.
 * [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc) – A strongly-typed unit testing library providing an easy fluent interface to test the ASP.NET Core, perfectly suitable for both MVC and API scenarios.
 * [ReportPortal](https://github.com/reportportal/reportportal) – AI-powered test automation dashboard: real-time analytics, test results visualization, machine learning. **[$]** 
 * [Serilog.Sinks.InMemory](https://github.com/serilog-contrib/SerilogSinksInMemory) - Log verification for [Serilog](https://serilog.net/).

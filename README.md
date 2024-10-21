@@ -2,12 +2,12 @@
 Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core), [awesome-dotnet](https://github.com/quozd/awesome-dotnet). Contributions are always welcome! 
 
 ### Not included
-* Language agnostic external tools written in .NET: load generators, reports etc.
-* Long-dead projects, .NET Framework-only projects.
-* Purely commercial products without a free version (a free trial doesn't count).
+* External language-independent tools, such as load generators, even if they are built on .NET.
+* Projects that are long dead or can't run on the latest stable .NET.
+* Purely commercial products without a free version (a free trial doesn't count as a free version).
 
 ### Legend
-**[~]** – May not be actively maintained at the moment, but still has community value and runs on modern .NET.
+**[~]** – May not be actively maintained at the moment, but still has community value and runs on the latest stable .NET.
 
 **[$]** – Has a paid "pro" version, restrictive license, or closed source code.
 

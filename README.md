@@ -52,8 +52,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [BDTest](https://github.com/thomhurst/BDTest) – A testing and reporting framework focusing on BDD ideology. It can be used with other frameworks (such as MSTest, xUnit or NUnit) or standalone. Think of BDTest as a pure code-based alternative to SpecFlow.
 * [LightBDD](https://github.com/LightBDD/LightBDD) – A framework for writing tests that are easy to read, easy to track during execution and summarize in user friendly report.
 * [Machine.Specifications (MSpec)](https://github.com/machine/machine.specifications) – A "context/specification" test framework. **[~]**
-* [Reqnroll](https://github.com/reqnroll/Reqnroll) – A test automation tool to practice BDD. Reqnroll is a .NET port of Cucumber and it is based on the SpecFlow framework and code base.
-* [SpecFlow](https://github.com/SpecFlowOSS/SpecFlow) – Cucumber for .NET. It provides test automation based on the Gherkin specification language and integrates to Visual Studio. **[~]**
+* [Reqnroll](https://github.com/reqnroll/Reqnroll) – A test automation tool to practice BDD. Reqnroll is a .NET port of Cucumber and it is based on the SpecFlow framework and code base (SpecFlow has reached end-of-life, its GitHub repo deleted).
 
 ### Code coverage
 #### Coverage collection

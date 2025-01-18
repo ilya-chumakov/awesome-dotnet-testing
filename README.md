@@ -43,7 +43,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 
 ### Assertions
 * [ExpressionToCode](https://github.com/EamonNerbonne/ExpressionToCode) – A library that generates valid, readable C# from an expression tree, inspired by PowerAssert.NET. 
-* [Fluent Assertions](https://github.com/fluentassertions/fluentassertions) – A set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests.
+* [Fluent Assertions](https://github.com/fluentassertions/fluentassertions) – A set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests. **[$]** 
 * [NFluent](https://github.com/tpierrain/NFluent) – An assertion library which aims to fluent your .NET TDD experience.
 * [PowerAssert.NET](https://github.com/PowerAssert/PowerAssert.Net) – A .NET port of Groovy's PowerAssert. It prints an easy-to-understand decomposition of your assertion's expression tree (with values) whenever an assertion fails.
 * [Shouldly](https://github.com/shouldly/shouldly) – An assertion framework which focuses on giving great error messages when the assertion fails while being simple and terse.

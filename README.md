@@ -93,6 +93,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 
 ### Mutations
 * [Stryker.NET](https://github.com/stryker-mutator/stryker-net) – Mutation testing tool. It allows you to test your tests by temporarily inserting bugs in your source code. [HowTo](https://engincanv.github.io/c%23/.net/stryker/2024/02/10/mutation-testing-in-c-sharp-with-stryker.html).
+* [bough](https://github.com/CodeEnPlace/bough) - Bough is a polyglot incremental mutation tester
 
 ### Random & fuzzy testing
 * [CsCheck](https://github.com/AnthonyLloyd/CsCheck) – C# random testing library inspired by QuickCheck.

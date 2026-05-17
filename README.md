@@ -42,6 +42,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [NetArchTest](https://github.com/BenMorris/NetArchTest) – A library for creating tests that enforce conventions for class design, naming and dependency in .NET code bases.
 
 ### Assertions
+* [AwesomeAssertions](https://github.com/AwesomeAssertions/AwesomeAssertions) – A free and open-source fork of Fluent Assertions.
 * [ExpressionToCode](https://github.com/EamonNerbonne/ExpressionToCode) – A library that generates valid, readable C# from an expression tree, inspired by PowerAssert.NET. 
 * [Fluent Assertions](https://github.com/fluentassertions/fluentassertions) – A set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests. **[$]** 
 * [NFluent](https://github.com/tpierrain/NFluent) – An assertion library which aims to fluent your .NET TDD experience.

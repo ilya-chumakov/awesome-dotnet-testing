@@ -126,6 +126,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [Meziantou.Extensions.Logging.InMemory](https://www.nuget.org/packages/Meziantou.Extensions.Logging.InMemory) - Log verification for Microsoft.Extensions.Logging.ILogger.
 * [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc) – A strongly-typed unit testing library providing an easy fluent interface to test the ASP.NET Core, perfectly suitable for both MVC and API scenarios.
 * [NCrunch](https://www.ncrunch.net/) – Automatic concurrent (live) testing for Visual Studio and JetBrains Rider. **[$]**
+* [Polly.Testing](https://www.pollydocs.org/advanced/testing) – Testing of Polly resilience pipelines: inspect pipeline composition, and mock pipeline providers in unit tests.
 * [ReportPortal](https://github.com/reportportal/reportportal) – AI-powered test automation dashboard: real-time analytics, test results visualization, machine learning. **[$]** 
 * [Serilog.Sinks.InMemory](https://github.com/serilog-contrib/SerilogSinksInMemory) - Log verification for [Serilog](https://serilog.net/).
 * [Testcontainers](https://github.com/testcontainers/testcontainers-dotnet) – A library to support tests with throwaway instances of Docker containers. It is built on top of the .NET Docker remote API and provides a lightweight implementation to support your test environment.

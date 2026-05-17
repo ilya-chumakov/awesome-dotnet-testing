@@ -7,9 +7,9 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * Purely commercial products without a free version (a free trial doesn't count as a free version).
 
 ### Legend
-**[~]** – Legacy tool: may not be actively maintained at the moment, but still has community value and runs on the latest stable .NET.
+**[~]** - Legacy tool: may not be actively maintained at the moment, but still has community value and runs on the latest stable .NET.
 
-**[$]** – Has a paid "pro" version, restrictive license, or closed source code.
+**[$]** - Has a paid "pro" version, restrictive license, or closed source code.
 
 ### Contents
 - [Intro. Test frameworks](#intro-test-frameworks)
@@ -34,106 +34,106 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 
 ### Intro. Test frameworks
 * The Big Three: [MSTest](https://github.com/microsoft/testfx), [NUnit](https://github.com/nunit/nunit), [xUnit](https://github.com/xunit/xunit).
-* [Fixie](https://github.com/fixie/fixie) – A test framework similar to NUnit and xUnit, but with an emphasis on low-ceremony defaults and flexible customization.
+* [Fixie](https://github.com/fixie/fixie) - A test framework similar to NUnit and xUnit, but with an emphasis on low-ceremony defaults and flexible customization.
 * [TUnit](https://github.com/thomhurst/TUnit) - A test framework with compile-time test discovery, source generation, and Native AOT support.
 
 ### Architecture
-* [ArchUnitNET](https://github.com/TNG/ArchUnitNET) – A library for checking the dependencies between classes, members, interfaces, and more.
-* [NetArchTest](https://github.com/BenMorris/NetArchTest) – A library for creating tests that enforce conventions for class design, naming and dependency in .NET code bases.
+* [ArchUnitNET](https://github.com/TNG/ArchUnitNET) - A library for checking the dependencies between classes, members, interfaces, and more.
+* [NetArchTest](https://github.com/BenMorris/NetArchTest) - A library for creating tests that enforce conventions for class design, naming and dependency in .NET code bases.
 
 ### Assertions
-* [AwesomeAssertions](https://github.com/AwesomeAssertions/AwesomeAssertions) – A free and open-source fork of Fluent Assertions.
-* [ExpressionToCode](https://github.com/EamonNerbonne/ExpressionToCode) – A library that generates valid, readable C# from an expression tree, inspired by PowerAssert.NET. 
-* [Fluent Assertions](https://github.com/fluentassertions/fluentassertions) – A set of extension methods that allow you to more naturally specify the expected outcome of a TDD or BDD-style unit tests. **[$]** 
-* [NFluent](https://github.com/tpierrain/NFluent) – An assertion library which aims to fluent your .NET TDD experience.
-* [PowerAssert.NET](https://github.com/PowerAssert/PowerAssert.Net) – A .NET port of Groovy's PowerAssert. It prints an easy-to-understand decomposition of your assertion's expression tree (with values) whenever an assertion fails. **[~]**
-* [Shouldly](https://github.com/shouldly/shouldly) – An assertion framework which focuses on giving great error messages when the assertion fails while being simple and terse.
+* [AwesomeAssertions](https://github.com/AwesomeAssertions/AwesomeAssertions) - A free and open-source fork of Fluent Assertions.
+* [ExpressionToCode](https://github.com/EamonNerbonne/ExpressionToCode) - A library that generates valid, readable C# from an expression tree, inspired by PowerAssert.NET. 
+* [Fluent Assertions](https://github.com/fluentassertions/fluentassertions) - A set of extension methods that allow you to more naturally specify the expected outcome of TDD or BDD-style unit tests. **[$]** 
+* [NFluent](https://github.com/tpierrain/NFluent) - An assertion library that aims to make your .NET TDD experience more fluent.
+* [PowerAssert.NET](https://github.com/PowerAssert/PowerAssert.Net) - A .NET port of Groovy's PowerAssert. It prints an easy-to-understand decomposition of your assertion's expression tree (with values) whenever an assertion fails. **[~]**
+* [Shouldly](https://github.com/shouldly/shouldly) - An assertion framework which focuses on giving great error messages when the assertion fails while being simple and terse.
 
 ### Behavior Driven Development (BDD)
-* [BDTest](https://github.com/thomhurst/BDTest) – A testing and reporting framework focusing on BDD ideology. It can be used with other frameworks (such as MSTest, xUnit or NUnit) or standalone. Think of BDTest as a pure code-based alternative to SpecFlow.
-* [LightBDD](https://github.com/LightBDD/LightBDD) – A framework for writing tests that are easy to read, easy to track during execution and summarize in user friendly report.
-* [Machine.Specifications (MSpec)](https://github.com/machine/machine.specifications) – A "context/specification" test framework. **[~]**
-* [Reqnroll](https://github.com/reqnroll/Reqnroll) – A test automation tool to practice BDD. Reqnroll is a .NET port of Cucumber and it is based on the SpecFlow framework and code base (SpecFlow has reached end-of-life, its GitHub repo deleted).
+* [BDTest](https://github.com/thomhurst/BDTest) - A testing and reporting framework focusing on BDD ideology. It can be used with other frameworks (such as MSTest, xUnit or NUnit) or standalone. Think of BDTest as a pure code-based alternative to SpecFlow.
+* [LightBDD](https://github.com/LightBDD/LightBDD) - A framework for writing tests that are easy to read, easy to track during execution, and summarized in a user-friendly report.
+* [Machine.Specifications (MSpec)](https://github.com/machine/machine.specifications) - A "context/specification" test framework. **[~]**
+* [Reqnroll](https://github.com/reqnroll/Reqnroll) - A test automation tool to practice BDD. Reqnroll is a .NET port of Cucumber and it is based on the SpecFlow framework and code base (SpecFlow has reached end-of-life, its GitHub repo deleted).
 
 ### Code coverage
 #### Coverage collection
-* [.NET built-in coverage data collector](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-test#:~:text=in%20your%20project.-,%2D%2Dcollect%20%3CDATA_COLLECTOR_NAME%3E,-Enables%20data%20collector) – Can be called by `dotnet test --collect "Code Coverage"` command. To avoid confusion with `dotnet-coverage` please visit [this thread](https://devblogs.microsoft.com/dotnet/whats-new-in-our-code-coverage-tooling/?commentid=20263#comment-20263).
-* [AltCover](https://github.com/SteveGilham/altcover) – Instrumenting coverage tool for .NET and Mono.
-* [coverlet](https://github.com/tonerdo/coverlet) – A cross platform code coverage framework for .NET, with support for line, branch and method coverage.
-* [dotnet-coverage](https://learn.microsoft.com/en-us/dotnet/core/additional-tools/dotnet-coverage) – A utility for collection coverage data of a running process, merging of coverage reports, binary `.coverage` file convertation. 
-* [JetBrains.dotCover.CommandLineTools](https://www.jetbrains.com/help/dotcover/Running_Coverage_Analysis_from_the_Command_LIne.html) – A console tool that allows you to run coverage analysis of unit tests or applications using the command-line prompt. 
-* [Microsoft.CodeCoverage.Console](https://learn.microsoft.com/en-us/visualstudio/test/microsoft-code-coverage-console-tool?view=vs-2022) – A closed-source coverage collector, available only with Visual Studio Enterprise. **[$]** 
-* [MiniCover](https://github.com/lucaslorentz/minicover) – A minimalist code coverage tool for .NET.
+* [.NET built-in coverage data collector](https://learn.microsoft.com/en-us/dotnet/core/tools/dotnet-test#:~:text=in%20your%20project.-,%2D%2Dcollect%20%3CDATA_COLLECTOR_NAME%3E,-Enables%20data%20collector) - Can be called by `dotnet test --collect "Code Coverage"` command. To avoid confusion with `dotnet-coverage` please visit [this thread](https://devblogs.microsoft.com/dotnet/whats-new-in-our-code-coverage-tooling/?commentid=20263#comment-20263).
+* [AltCover](https://github.com/SteveGilham/altcover) - Instrumenting coverage tool for .NET and Mono.
+* [coverlet](https://github.com/tonerdo/coverlet) - A cross-platform code coverage framework for .NET, with support for line, branch, and method coverage.
+* [dotnet-coverage](https://learn.microsoft.com/en-us/dotnet/core/additional-tools/dotnet-coverage) - A utility for collecting coverage data from a running process, merging coverage reports, and converting binary `.coverage` files. 
+* [JetBrains.dotCover.CommandLineTools](https://www.jetbrains.com/help/dotcover/Running_Coverage_Analysis_from_the_Command_LIne.html) - A console tool that allows you to run coverage analysis of unit tests or applications using the command-line prompt. 
+* [Microsoft.CodeCoverage.Console](https://learn.microsoft.com/en-us/visualstudio/test/microsoft-code-coverage-console-tool?view=vs-2022) - A closed-source coverage collector, available only with Visual Studio Enterprise. **[$]** 
+* [MiniCover](https://github.com/lucaslorentz/minicover) - A minimalist code coverage tool for .NET.
 
 #### Coverage visualization
 * Rider: built-in support.
 * Visual Studio: 
-  * [FineCodeCoverage](https://github.com/FortuneN/FineCodeCoverage) – Free Visual Studio extension for test code coverage visualization.
+  * [FineCodeCoverage](https://github.com/FortuneN/FineCodeCoverage) - Free Visual Studio extension for test code coverage visualization.
   * CodeRush.
   * ReSharper + dotCover.
   * Built-in support in Enterprise version.
 * VSCode: [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) extension.
 
 ### Fake data generators
-* [AutoFixture](https://github.com/AutoFixture/AutoFixture) – minimize the 'Arrange' phase of your unit tests by automating non-relevant setup. Auto-injecting mocks, auto-generation of test cases etc.
-* [Bogus](https://github.com/bchavez/Bogus) – A simple fake data generator. It is fundamentally a C# port of faker.js and inspired by FluentValidation's syntax sugar.
-* [GenFu](https://github.com/MisterJames/GenFu) – Smartly building up objects to use for test and prototype data. It will walk your object graph and fill in the properties on your type with realistic looking data. **[~]** 
+* [AutoFixture](https://github.com/AutoFixture/AutoFixture) - Minimizes the 'Arrange' phase of your unit tests by automating non-relevant setup. Auto-injects mocks, auto-generates test cases, etc.
+* [Bogus](https://github.com/bchavez/Bogus) - A simple fake data generator. It is fundamentally a C# port of faker.js and inspired by FluentValidation's syntax sugar.
+* [GenFu](https://github.com/MisterJames/GenFu) - Smartly building up objects to use for test and prototype data. It will walk your object graph and fill in the properties on your type with realistic looking data. **[~]** 
 
 ### Mocks
 #### General purpose mocks
-* [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) – A .NET dynamic fake library for creating all types of fake objects, mocks, stubs etc.
-* [JustMock](https://www.telerik.com/products/mocking.aspx) – A flexible and complete mocking tool for crafting unit tests. **[$]** 
-* [Moq](https://github.com/Moq/moq4) – Popular, mock both interfaces and classes, strong-typed, has IntelliSense integration, no Record/Replay idioms.
-* [NSubstitute](https://github.com/nsubstitute/nsubstitute) – A friendly substitute for .NET mocking libraries.
+* [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) - A .NET dynamic fake library for creating all types of fake objects, mocks, stubs etc.
+* [JustMock](https://www.telerik.com/products/mocking.aspx) - A flexible and complete mocking tool for crafting unit tests. **[$]** 
+* [Moq](https://github.com/Moq/moq4) - Popular; mocks both interfaces and classes; strongly typed; has IntelliSense integration; no Record/Replay idioms.
+* [NSubstitute](https://github.com/nsubstitute/nsubstitute) - A friendly substitute for .NET mocking libraries.
 
 #### Specific mocks
-* [mockhttp](https://github.com/richardszalay/mockhttp) – Testing layer for Microsoft's HttpClient library.
-* [Moq.Contrib.HttpClient](https://github.com/maxkagamine/Moq.Contrib.HttpClient) – A set of extension methods for mocking HttpClient and IHttpClientFactory with Moq.
-* [netDumbster](https://github.com/cmendible/netDumbster) – A fake SMTP server.
-* [Stubbery](https://markvincze.github.io/Stubbery/) – A library for creating and running Web API stubs in .NET. **[~]**
-* [WireMock.Net](https://github.com/wiremock/WireMock.Net) – A rich set of libraries and standalone tools for stubbing and mocking web HTTP responses.
+* [mockhttp](https://github.com/richardszalay/mockhttp) - Testing layer for Microsoft's HttpClient library.
+* [Moq.Contrib.HttpClient](https://github.com/maxkagamine/Moq.Contrib.HttpClient) - A set of extension methods for mocking HttpClient and IHttpClientFactory with Moq.
+* [netDumbster](https://github.com/cmendible/netDumbster) - A fake SMTP server.
+* [Stubbery](https://markvincze.github.io/Stubbery/) - A library for creating and running Web API stubs in .NET. **[~]**
+* [WireMock.Net](https://github.com/wiremock/WireMock.Net) - A rich set of libraries and standalone tools for stubbing and mocking web HTTP responses.
 
 ### Mutations
-* [Stryker.NET](https://github.com/stryker-mutator/stryker-net) – Mutation testing tool. It allows you to test your tests by temporarily inserting bugs in your source code. [HowTo](https://engincanv.github.io/c%23/.net/stryker/2024/02/10/mutation-testing-in-c-sharp-with-stryker.html).
+* [Stryker.NET](https://github.com/stryker-mutator/stryker-net) - Mutation testing tool. It allows you to test your tests by temporarily inserting bugs in your source code. [HowTo](https://engincanv.github.io/c%23/.net/stryker/2024/02/10/mutation-testing-in-c-sharp-with-stryker.html).
 
 ### Random & fuzzy testing
-* [CsCheck](https://github.com/AnthonyLloyd/CsCheck) – C# random testing library inspired by QuickCheck.
-* [FsCheck](https://github.com/fscheck/FsCheck) – F# random testing library inspired by QuickCheck.
-* [SharpFuzz](https://github.com/Metalnem/sharpfuzz) – AFL-based fuzz testing for .NET. [The basics of fuzzy testing](https://xebia.com/blog/fuzzing-in-c/).
+* [CsCheck](https://github.com/AnthonyLloyd/CsCheck) - C# random testing library inspired by QuickCheck.
+* [FsCheck](https://github.com/fscheck/FsCheck) - F# random testing library inspired by QuickCheck.
+* [SharpFuzz](https://github.com/Metalnem/sharpfuzz) - AFL-based fuzz testing for .NET. [The basics of fuzzy testing](https://xebia.com/blog/fuzzing-in-c/).
 
 ### Security
-* [HCL AppScan CodeSweep](https://marketplace.visualstudio.com/items?itemName=HCLTechnologies.hclappscancodesweep) – SAST extension for Visual Studio Code.
-* [PVS-Studio](https://pvs-studio.com/) – SAST. [Free for OSS](https://pvs-studio.com/en/order/open-source-license/). **[$]**
-* [snyk.io](https://snyk.io/product/snyk-code/) – SAST. Free for [individual developers and small teams](https://snyk.io/plans/). **[$]**
-* [SonarQube](https://www.sonarsource.com/products/sonarqube/) – SAST. Community Edition is [free & open source](https://www.sonarsource.com/open-source-editions/sonarqube-community-edition/). **[$]**
+* [HCL AppScan CodeSweep](https://marketplace.visualstudio.com/items?itemName=HCLTechnologies.hclappscancodesweep) - SAST extension for Visual Studio Code.
+* [PVS-Studio](https://pvs-studio.com/) - SAST. [Free for OSS](https://pvs-studio.com/en/order/open-source-license/). **[$]**
+* [snyk.io](https://snyk.io/product/snyk-code/) - SAST. Free for [individual developers and small teams](https://snyk.io/plans/). **[$]**
+* [SonarQube](https://www.sonarsource.com/products/sonarqube/) - SAST. Community Edition is [free & open source](https://www.sonarsource.com/open-source-editions/sonarqube-community-edition/). **[$]**
 
 ### Snapshots
-* [Meziantou.Framework.InlineSnapshotTesting](https://www.nuget.org/packages/Meziantou.Framework.InlineSnapshotTesting) – Snapshot tool to store snapshots into the code.
-* [Snapshooter](https://github.com/SwissLife-OSS/snapshooter) – A snapshot tool based on the idea of [Jest Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing/).
-* [Verify](https://github.com/VerifyTests/Verify) – A snapshot tool to simplify the assertion of complex data models and documents.
+* [Meziantou.Framework.InlineSnapshotTesting](https://www.nuget.org/packages/Meziantou.Framework.InlineSnapshotTesting) - Snapshot tool that stores snapshots inline in the code.
+* [Snapshooter](https://github.com/SwissLife-OSS/snapshooter) - A snapshot tool based on the idea of [Jest Snapshot Testing](https://jestjs.io/docs/en/snapshot-testing/).
+* [Verify](https://github.com/VerifyTests/Verify) - A snapshot tool to simplify the assertion of complex data models and documents.
 
 ### Web UI test automation
-* [Atata](https://github.com/atata-framework/atata) – A full-featured framework based on Selenium WebDriver.
+* [Atata](https://github.com/atata-framework/atata) - A full-featured framework based on Selenium WebDriver.
 * [Playwright](https://playwright.dev/dotnet/) - End-to-end testing for modern web apps, supporting Chromium, WebKit, and Firefox browsers.
-* [PuppeteerSharp](https://github.com/hardkoded/puppeteer-sharp) – A multi-purpose browser automation library.
-* [Telerik Test Studio](https://docs.telerik.com/teststudio/welcome) – Functional UI, load/performance and API testing for web and WPF desktop applications. It is not based on Selenium or other Open Source frameworks but on the Telerik Testing Framework (proprietary). **[$]**
+* [PuppeteerSharp](https://github.com/hardkoded/puppeteer-sharp) - A multi-purpose browser automation library.
+* [Telerik Test Studio](https://docs.telerik.com/teststudio/welcome) - Functional UI, load/performance, and API testing for web and WPF desktop applications. It is not based on Selenium or other open-source frameworks but on the Telerik Testing Framework (proprietary). **[$]**
 
 ### Uncategorized
-* [bUnit](https://github.com/bunit-dev/bunit) – A testing library for Blazor components; testing the output and interaction.
-* [Expecto](https://github.com/haf/expecto) – A Smooth Testing framework for F# with tests as values. Unit testing, property based testing, performance testing and stress testing.
-* [FlaUI](https://github.com/FlaUI/FlaUI) – Automated UI testing of Windows applications (Win32, WinForms, WPF, Store Apps etc.).
-* [Fuchu](https://github.com/mausch/Fuchu) – A unit-testing library for F# with tests-as-values which makes DSLs extremely easy to create. **[~]**
+* [bUnit](https://github.com/bunit-dev/bunit) - A testing library for Blazor components that verifies rendered output and interaction.
+* [Expecto](https://github.com/haf/expecto) - A Smooth Testing framework for F# with tests as values. Unit testing, property based testing, performance testing and stress testing.
+* [FlaUI](https://github.com/FlaUI/FlaUI) - Automated UI testing of Windows applications (Win32, WinForms, WPF, Store Apps etc.).
+* [Fuchu](https://github.com/mausch/Fuchu) - A unit-testing library for F# with tests-as-values which makes DSLs extremely easy to create. **[~]**
 * [Meziantou.Extensions.Logging.InMemory](https://www.nuget.org/packages/Meziantou.Extensions.Logging.InMemory) - Log verification for Microsoft.Extensions.Logging.ILogger.
-* [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc) – A strongly-typed unit testing library providing an easy fluent interface to test the ASP.NET Core, perfectly suitable for both MVC and API scenarios.
-* [NCrunch](https://www.ncrunch.net/) – Automatic concurrent (live) testing for Visual Studio and JetBrains Rider. **[$]**
-* [Polly.Testing](https://www.pollydocs.org/advanced/testing) – Testing of Polly resilience pipelines: inspect pipeline composition, and mock pipeline providers in unit tests.
-* [ReportPortal](https://github.com/reportportal/reportportal) – AI-powered test automation dashboard: real-time analytics, test results visualization, machine learning. **[$]** 
+* [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc) - A strongly typed unit testing library providing an easy fluent interface to test ASP.NET Core, suitable for both MVC and API scenarios.
+* [NCrunch](https://www.ncrunch.net/) - Automatic concurrent (live) testing for Visual Studio and JetBrains Rider. **[$]**
+* [Polly.Testing](https://www.pollydocs.org/advanced/testing) - Testing of Polly resilience pipelines: inspect pipeline composition, and mock pipeline providers in unit tests.
+* [ReportPortal](https://github.com/reportportal/reportportal) - AI-powered test automation dashboard: real-time analytics, test results visualization, machine learning. **[$]** 
 * [Serilog.Sinks.InMemory](https://github.com/serilog-contrib/SerilogSinksInMemory) - Log verification for [Serilog](https://serilog.net/).
-* [Testcontainers](https://github.com/testcontainers/testcontainers-dotnet) – A library to support tests with throwaway instances of Docker containers. It is built on top of the .NET Docker remote API and provides a lightweight implementation to support your test environment.
+* [Testcontainers](https://github.com/testcontainers/testcontainers-dotnet) - A library to support tests with throwaway instances of Docker containers. It is built on top of the .NET Docker remote API and provides a lightweight implementation to support your test environment.
 
 ### Appendix I. xUnit extensions
-* [ReSharper Live Templates for xUnit.net](https://github.com/JetBrains/resharper-xunit-templates) - Add various Live Templates for xUnit.net to ReSharper.
+* [ReSharper Live Templates for xUnit.net](https://github.com/JetBrains/resharper-xunit-templates) - Adds various Live Templates for xUnit.net to ReSharper.
 * [Xunit.Categories](https://github.com/brendanconnolly/Xunit.Categories) - Friendlier attributes to help categorize your tests.
-* [Xunit.Combinatorial](https://github.com/AArnott/Xunit.Combinatorial) - Parameterize your Xunit test methods: auto-generate parameters, generate all parameter combinations, or randomly generate values.
+* [Xunit.Combinatorial](https://github.com/AArnott/Xunit.Combinatorial) - Parameterize your xUnit test methods: auto-generate parameters, generate all parameter combinations, or randomly generate values.
 * [Xunit.DependencyInjection](https://github.com/pengweiqhca/Xunit.DependencyInjection) - Use Microsoft.Extensions.DependencyInjection to resolve xUnit test cases.
-* [Xunit.SkippableFact](https://github.com/AArnott/Xunit.SkippableFact) - Report a "skipped" result in run time.
+* [Xunit.SkippableFact](https://github.com/AArnott/Xunit.SkippableFact) - Report a "skipped" result at runtime.

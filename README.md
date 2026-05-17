@@ -120,6 +120,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 
 ### Uncategorized
 * [NCrunch](https://www.ncrunch.net/) – Automatic concurrent (live) testing for Visual Studio and JetBrains Rider. **[$]**
+* [bUnit](https://github.com/bunit-dev/bunit) – A testing library for Blazor components; testing the output and interaction.
 * [Expecto](https://github.com/haf/expecto) – A Smooth Testing framework for F# with tests as values. Unit testing, property based testing, performance testing and stress testing.
 * [FlaUI](https://github.com/FlaUI/FlaUI) – Automated UI testing of Windows applications (Win32, WinForms, WPF, Store Apps etc.).
 * [Fuchu](https://github.com/mausch/Fuchu) – A unit-testing library for F# with tests-as-values which makes DSLs extremely easy to create. **[~]**

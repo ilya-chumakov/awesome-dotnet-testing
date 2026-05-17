@@ -83,7 +83,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 #### General purpose mocks
 * [FakeItEasy](https://github.com/FakeItEasy/FakeItEasy) – A .NET dynamic fake library for creating all types of fake objects, mocks, stubs etc.
 * [JustMock](https://www.telerik.com/products/mocking.aspx) – A flexible and complete mocking tool for crafting unit tests. **[$]** 
-* [Moq](https://github.com/Moq/moq4) – Most popular, mock both interfaces and classes, strong-typed, has IntelliSense integration, no Record/Replay idioms.
+* [Moq](https://github.com/Moq/moq4) – Popular, mock both interfaces and classes, strong-typed, has IntelliSense integration, no Record/Replay idioms.
 * [NSubstitute](https://github.com/nsubstitute/nsubstitute) – A friendly substitute for .NET mocking libraries.
 
 #### Specific mocks

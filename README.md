@@ -1,5 +1,5 @@
 # Awesome .NET Testing
-Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core), [awesome-dotnet](https://github.com/quozd/awesome-dotnet). Contributions are always welcome! 
+Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-core), [awesome-dotnet](https://github.com/quozd/awesome-dotnet). Contributions are always welcome! Please check [CONTRIBUTING.md](https://github.com/ilya-chumakov/awesome-dotnet-testing/blob/main/CONTRIBUTING.md) for details.
 
 ### Not included
 * External language-independent tools, such as load generators, even if they are built on .NET.
@@ -34,8 +34,8 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 
 ### Intro. Test frameworks
 * The Big Three: [MSTest](https://github.com/microsoft/testfx), [NUnit](https://github.com/nunit/nunit), [xUnit](https://github.com/xunit/xunit).
-
 * [Fixie](https://github.com/fixie/fixie) – A test framework similar to NUnit and xUnit, but with an emphasis on low-ceremony defaults and flexible customization.
+* [TUnit](https://github.com/thomhurst/TUnit) - A test framework with compile-time test discovery, source generation, and Native AOT support.
 
 ### Architecture
 * [ArchUnitNET](https://github.com/TNG/ArchUnitNET) – A library for checking the dependencies between classes, members, interfaces, and more.

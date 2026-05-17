@@ -66,12 +66,12 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [MiniCover](https://github.com/lucaslorentz/minicover) – A minimalist code coverage tool for .NET.
 
 #### Coverage visualization
+* Rider: built-in support.
 * Visual Studio: 
   * [FineCodeCoverage](https://github.com/FortuneN/FineCodeCoverage) – Free Visual Studio extension for test code coverage visualization.
   * CodeRush.
   * ReSharper + dotCover.
   * Built-in support in Enterprise version.
-* Rider: built-in support.
 * VSCode: [Coverage Gutters](https://marketplace.visualstudio.com/items?itemName=ryanluker.vscode-coverage-gutters) extension.
 
 ### Fake data generators
@@ -119,13 +119,13 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [Telerik Test Studio](https://docs.telerik.com/teststudio/welcome) – Functional UI, load/performance and API testing for web and WPF desktop applications. It is not based on Selenium or other Open Source frameworks but on the Telerik Testing Framework (proprietary). **[$]**
 
 ### Uncategorized
-* [NCrunch](https://www.ncrunch.net/) – Automatic concurrent (live) testing for Visual Studio and JetBrains Rider. **[$]**
 * [bUnit](https://github.com/bunit-dev/bunit) – A testing library for Blazor components; testing the output and interaction.
 * [Expecto](https://github.com/haf/expecto) – A Smooth Testing framework for F# with tests as values. Unit testing, property based testing, performance testing and stress testing.
 * [FlaUI](https://github.com/FlaUI/FlaUI) – Automated UI testing of Windows applications (Win32, WinForms, WPF, Store Apps etc.).
 * [Fuchu](https://github.com/mausch/Fuchu) – A unit-testing library for F# with tests-as-values which makes DSLs extremely easy to create. **[~]**
 * [Meziantou.Extensions.Logging.InMemory](https://www.nuget.org/packages/Meziantou.Extensions.Logging.InMemory) - Log verification for Microsoft.Extensions.Logging.ILogger.
 * [MyTested.AspNetCore.Mvc](https://github.com/ivaylokenov/MyTested.AspNetCore.Mvc) – A strongly-typed unit testing library providing an easy fluent interface to test the ASP.NET Core, perfectly suitable for both MVC and API scenarios.
+* [NCrunch](https://www.ncrunch.net/) – Automatic concurrent (live) testing for Visual Studio and JetBrains Rider. **[$]**
 * [ReportPortal](https://github.com/reportportal/reportportal) – AI-powered test automation dashboard: real-time analytics, test results visualization, machine learning. **[$]** 
 * [Serilog.Sinks.InMemory](https://github.com/serilog-contrib/SerilogSinksInMemory) - Log verification for [Serilog](https://serilog.net/).
 * [Testcontainers](https://github.com/testcontainers/testcontainers-dotnet) – A library to support tests with throwaway instances of Docker containers. It is built on top of the .NET Docker remote API and provides a lightweight implementation to support your test environment.

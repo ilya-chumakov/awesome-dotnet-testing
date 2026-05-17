@@ -7,7 +7,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * Purely commercial products without a free version (a free trial doesn't count as a free version).
 
 ### Legend
-**[~]** – May not be actively maintained at the moment, but still has community value and runs on the latest stable .NET.
+**[~]** – Legacy tool: may not be actively maintained at the moment, but still has community value and runs on the latest stable .NET.
 
 **[$]** – Has a paid "pro" version, restrictive license, or closed source code.
 

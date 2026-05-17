@@ -91,6 +91,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [Moq.Contrib.HttpClient](https://github.com/maxkagamine/Moq.Contrib.HttpClient) – A set of extension methods for mocking HttpClient and IHttpClientFactory with Moq.
 * [netDumbster](https://github.com/cmendible/netDumbster) – A fake SMTP server.
 * [Stubbery](https://markvincze.github.io/Stubbery/) – A library for creating and running Web API stubs in .NET. **[~]**
+* [WireMock.Net](https://github.com/wiremock/WireMock.Net) – A rich set of libraries and standalone tools for stubbing and mocking web HTTP responses.
 
 ### Mutations
 * [Stryker.NET](https://github.com/stryker-mutator/stryker-net) – Mutation testing tool. It allows you to test your tests by temporarily inserting bugs in your source code. [HowTo](https://engincanv.github.io/c%23/.net/stryker/2024/02/10/mutation-testing-in-c-sharp-with-stryker.html).

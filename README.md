@@ -78,6 +78,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [AutoFixture](https://github.com/AutoFixture/AutoFixture) - Minimizes the 'Arrange' phase of your unit tests by automating non-relevant setup. Auto-injects mocks, auto-generates test cases, etc.
 * [Bogus](https://github.com/bchavez/Bogus) - A simple fake data generator. It is fundamentally a C# port of faker.js and inspired by FluentValidation's syntax sugar.
 * [GenFu](https://github.com/MisterJames/GenFu) - Smartly building up objects to use for test and prototype data. It will walk your object graph and fill in the properties on your type with realistic looking data. **[~]** 
+* [Mock Jutsu](https://github.com/altansayan/mock-jutsu-api) - Checksum-valid financial and identity test data generator (IBAN MOD-97, Luhn cards, TCKN, ISIN), plus real registered BIC/SWIFT codes - unlike format-only fakers, every value passes real validation. No native .NET SDK, but usable via its REST API.
 
 ### Mocks
 #### General purpose mocks

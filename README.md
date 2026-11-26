@@ -87,6 +87,7 @@ Inspired by [awesome-dotnet-core](https://github.com/thangchung/awesome-dotnet-c
 * [NSubstitute](https://github.com/nsubstitute/nsubstitute) - A friendly substitute for .NET mocking libraries.
 
 #### Specific mocks
+* [Keploy](https://github.com/keploy/keploy) - Records HTTP, database and queue calls from real traffic and replays them as mocks during API tests in CI.
 * [mockhttp](https://github.com/richardszalay/mockhttp) - Testing layer for Microsoft's HttpClient library.
 * [Moq.Contrib.HttpClient](https://github.com/maxkagamine/Moq.Contrib.HttpClient) - A set of extension methods for mocking HttpClient and IHttpClientFactory with Moq.
 * [netDumbster](https://github.com/cmendible/netDumbster) - A fake SMTP server.
